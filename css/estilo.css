@@ -1,0 +1,78 @@
+
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Sección hero */
+        .hero {
+            background-color: #f0f0f0;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        /* Sección características */
+        .features {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .feature-item {
+            display: inline-block;
+            width: 250px;
+            margin: 20px;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+        /* Sección llamada a la acción */
+        .call-to-action {
+            background-color: #007bff;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .call-to-action h2 {
+            margin-bottom: 20px;
+        }
+
+        .call-to-action .btn-primary {
+            background-color: white;
+            color: #007bff;
+        }
